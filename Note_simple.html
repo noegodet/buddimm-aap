@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<title>Retrouver et relier les appels à projets médico-sociaux</title>
+<style>
+  @page { size: A4; margin: 12mm 15mm 10mm; }
+  :root { --blue: #1d5c8a; --ink: #1a1a1a; --ink-2: #555; --line: #dcdcd6; --soft: #eef3f8; --good: #1e7b1e; --bad: #b53030; --mid: #9a6a00; }
+  * { box-sizing: border-box; }
+  body { margin: 0; color: var(--ink); font: 10.2pt/1.38 "Segoe UI", system-ui, sans-serif; }
+  .kicker { color: var(--blue); font-size: 8pt; letter-spacing: .08em; text-transform: uppercase; font-weight: 600; }
+  h1 { font-size: 17pt; line-height: 1.2; margin: 2px 0 2px; }
+  .by { color: var(--ink-2); font-size: 9pt; padding-bottom: 7px; border-bottom: 2px solid var(--blue); margin-bottom: 4px; }
+  h2 { color: var(--blue); font-size: 11.5pt; margin: 9px 0 2px; }
+  p { margin: 0 0 4px; }
+  ul { margin: 2px 0 0; padding-left: 16px; } li { margin: 1px 0; }
+  b { font-weight: 650; }
+
+  .chain { display: flex; align-items: center; gap: 6px; margin: 6px 0 2px; font-size: 9pt; }
+  .step { flex: 1; border: 1px solid var(--line); border-radius: 6px; padding: 4px 8px; background: #fafaf8; }
+  .step b { color: var(--blue); display: block; font-size: 9.5pt; }
+  .arrow { color: var(--ink-2); }
+
+  table { width: 100%; border-collapse: collapse; font-size: 9.5pt; margin: 4px 0 4px; }
+  th { text-align: left; background: var(--blue); color: #fff; font-weight: 600; padding: 3px 7px; }
+  td { padding: 3px 7px; border-bottom: 1px solid var(--line); }
+  .ok { color: var(--good); font-weight: 600; } .ko { color: var(--bad); font-weight: 600; } .mid { color: var(--mid); font-weight: 600; }
+
+  .callout { background: var(--soft); border-left: 4px solid var(--blue); padding: 6px 10px; margin: 8px 0 2px; }
+  .cols { display: grid; grid-template-columns: 1fr 1fr; gap: 0 18px; }
+  .when { color: var(--blue); font-weight: 650; }
+  footer { margin-top: 10px; padding-top: 5px; border-top: 1px solid var(--line); color: var(--ink-2); font-size: 8.5pt; }
+</style>
+</head>
+<body>
+<div class="kicker">Cas métier Buddimm · Stage IA agentique et développement web</div>
+<h1>Retrouver et relier les appels à projets médico-sociaux</h1>
+<div class="by">Noé Godet · novembre 2026</div>
+
+<h2>Le problème</h2>
+<p>Pour créer un établissement médico-social, l'ARS publie trois documents, à plusieurs mois d'écart : l'<b>annonce</b>
+  de l'appel à projets, le <b>classement</b> des candidats, puis la <b>décision</b> qui autorise le gagnant. Ils sont noyés
+  dans des recueils administratifs de 100 à 200 pages. Les retrouver et les relier à la main prend des heures.</p>
+
+<h2>Ce que j'ai construit</h2>
+<p>Un outil qui va chercher ces documents sur les sites officiels, les relie entre eux et affiche une fiche par appel à
+  projets. Chaque information renvoie à la page exacte du document d'origine : tout est vérifiable en un clic.
+  J'ai préféré <b>peu d'appels, mais bien vérifiés</b> (3 appels clos en Auvergne-Rhône-Alpes) plutôt que beaucoup de
+  résultats approximatifs. L'IA est réservée à ce qui est flou (comparer des critères rédigés différemment d'un appel
+  à l'autre) ; le reste repose sur des règles simples, plus fiables.</p>
+<div class="chain">
+  <div class="step"><b>1. Annonce</b>critères de sélection, date limite</div><span class="arrow">→</span>
+  <div class="step"><b>2. Classement</b>candidats retenus, dans l'ordre</div><span class="arrow">→</span>
+  <div class="step"><b>3. Décision</b>gagnant autorisé, sous 6 mois</div>
+</div>
+
+<h2>Résultats</h2>
+<table>
+  <tr><th>Appel à projets</th><th>Annonce</th><th>Classement</th><th>Décision</th></tr>
+  <tr><td>Appartements thérapeutiques, 40 places, Lyon (2021)</td><td class="ok">✔ trouvée</td><td class="ok">✔ trouvé</td><td class="ok">✔ trouvée</td></tr>
+  <tr><td>Appartements thérapeutiques, 20 places, Rhône (2022)</td><td class="ok">✔ trouvée</td><td class="ok">✔ trouvé</td><td class="ok">✔ trouvée</td></tr>
+  <tr><td>Équipe mobile santé précarité, Cantal (2024)</td><td class="ko">✘ introuvable</td><td class="ok">✔ trouvé</td><td class="mid">~ citée ailleurs</td></tr>
+</table>
+<p>Deux dossiers complets, dont les décisions ont bien été prises dans le délai légal de 6 mois.</p>
+
+<div class="callout"><b>Ce qui intéresse Buddimm.</b> Dans la note de sélection des candidats, l'immobilier (localisation,
+  locaux) ne compte que pour <b>3 %</b> (10 points sur 300). Peu regardé au moment de candidater, c'est pourtant ensuite le
+  gros chantier du gagnant : un argument pour intervenir tôt auprès des associations.</div>
+
+<h2>Pour la prospection</h2>
+<ul>
+  <li><span class="when">Avant l'annonce (1 à 3 ans) :</span> l'ARS et les départements publient leurs objectifs de places à
+    créer. En les comparant aux places déjà accordées, on voit où tomberont les prochains appels, et on approche les
+    associations du secteur en avance.</li>
+  <li><span class="when">À l'annonce (2 à 12 mois) :</span> le calendrier annuel des appels est public. Les associations
+    auront environ 2 mois pour monter leur dossier, dont la partie locaux.</li>
+  <li><span class="when">Après la décision :</span> les gagnants doivent trouver ou aménager des locaux (liste déjà produite par
+    l'outil : ALYNEA, OPPELIA, ANEF Cantal). Les candidats classés 2ᵉ ou 3ᵉ ont un projet prêt et le représenteront.</li>
+</ul>
+
+<div class="cols">
+  <div><h2>Ce qui manque, honnêtement</h2>
+    <ul>
+      <li>Une annonce introuvable (page retirée du site de l'ARS).</li>
+      <li>Une décision connue seulement parce qu'un autre acte la cite.</li>
+      <li>Documents de départ trouvés à la main ; une seule région testée.</li>
+      <li>L'IA locale prévue n'a pas tourné sur mon ordinateur (l'outil fonctionne sans).</li>
+      <li>La prospection « avant l'annonce » est une piste, pas construite.</li>
+    </ul></div>
+  <div><h2>La suite</h2>
+    <ul>
+      <li>Repérer automatiquement chaque nouveau recueil publié.</li>
+      <li>Étendre aux autres ARS et aux départements.</li>
+      <li>Suivre les calendriers annuels pour anticiper.</li>
+      <li>Vérifier l'outil sur une vingtaine d'appels contrôlés à la main.</li>
+    </ul></div>
+</div>
+
+<footer>
+  <b>Règles respectées :</b> sources officielles uniquement (sites de l'ARS et de la préfecture), téléchargements espacés et
+  jamais répétés, aucune personne nommée (seulement des organismes).<br>
+  <b>Outils :</b> Claude (chat) et Claude Code (Claude Opus 5.5), Python. <b>Temps passé :</b> environ 2 h au total.
+</footer>
+</body>
+</html>

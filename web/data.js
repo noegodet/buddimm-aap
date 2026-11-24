@@ -1,0 +1,1465 @@
+window.DATA = {
+ "genere_le": "2026-11-24T09:51:09",
+ "duree_s": 42.1,
+ "fiches": [
+  {
+   "aap_id": "2021-69-ACT",
+   "objet": "40 places d'appartements de coordination thérapeutique (ACT) dont 24 « hors les murs » sur la Métropole de Lyon",
+   "type": "appartements de coordination thérapeutique",
+   "territoire": "Métropole de Lyon",
+   "places": 40,
+   "avis": {
+    "type_doc": "avis",
+    "url": "https://www.prefectures-regions.gouv.fr/auvergne-rhone-alpes/content/download/77557/501248/file/1fevrier2021_n%C2%B0%201_recueil-84-2021-019-recueil-des-actes-administratifs-special(1).pdf",
+    "pages": [
+     68,
+     96
+    ],
+    "nb_pages_pdf": 96,
+    "texte_vide": 0,
+    "champs": {
+     "aap_id": {
+      "valeur": "2021-69-ACT",
+      "url": "https://www.prefectures-regions.gouv.fr/auvergne-rhone-alpes/content/download/77557/501248/file/1fevrier2021_n%C2%B0%201_recueil-84-2021-019-recueil-des-actes-administratifs-special(1).pdf",
+      "page": 72
+     },
+     "objet": {
+      "valeur": "40 places d'appartements de coordination thérapeutique (ACT) dont 24 « hors les murs » sur la Métropole de Lyon",
+      "url": "https://www.prefectures-regions.gouv.fr/auvergne-rhone-alpes/content/download/77557/501248/file/1fevrier2021_n%C2%B0%201_recueil-84-2021-019-recueil-des-actes-administratifs-special(1).pdf",
+      "page": 69
+     },
+     "places": {
+      "valeur": 40,
+      "url": "https://www.prefectures-regions.gouv.fr/auvergne-rhone-alpes/content/download/77557/501248/file/1fevrier2021_n%C2%B0%201_recueil-84-2021-019-recueil-des-actes-administratifs-special(1).pdf",
+      "page": 68
+     },
+     "territoire": {
+      "valeur": "Métropole de Lyon",
+      "url": "https://www.prefectures-regions.gouv.fr/auvergne-rhone-alpes/content/download/77557/501248/file/1fevrier2021_n%C2%B0%201_recueil-84-2021-019-recueil-des-actes-administratifs-special(1).pdf",
+      "page": 68
+     },
+     "type": {
+      "valeur": "appartements de coordination thérapeutique",
+      "url": "https://www.prefectures-regions.gouv.fr/auvergne-rhone-alpes/content/download/77557/501248/file/1fevrier2021_n%C2%B0%201_recueil-84-2021-019-recueil-des-actes-administratifs-special(1).pdf",
+      "page": 68
+     },
+     "date_publication": {
+      "valeur": "2021-01-29",
+      "url": "https://www.prefectures-regions.gouv.fr/auvergne-rhone-alpes/content/download/77557/501248/file/1fevrier2021_n%C2%B0%201_recueil-84-2021-019-recueil-des-actes-administratifs-special(1).pdf",
+      "page": 74
+     },
+     "date_limite_depot": {
+      "valeur": "2021-04-02",
+      "url": "https://www.prefectures-regions.gouv.fr/auvergne-rhone-alpes/content/download/77557/501248/file/1fevrier2021_n%C2%B0%201_recueil-84-2021-019-recueil-des-actes-administratifs-special(1).pdf",
+      "page": 74
+     }
+    },
+    "citations": [],
+    "criteres": {
+     "methode": "regles",
+     "criteres": [
+      {
+       "bloc": "I",
+       "critere": "Clarté et lisibilité du projet",
+       "coef": 2,
+       "points_max": 10,
+       "url": "https://www.prefectures-regions.gouv.fr/auvergne-rhone-alpes/content/download/77557/501248/file/1fevrier2021_n%C2%B0%201_recueil-84-2021-019-recueil-des-actes-administratifs-special(1).pdf",
+       "page": 93,
+       "categorie": "qualite_projet"
+      },
+      {
+       "bloc": "I",
+       "critere": "Publics",
+       "coef": 3,
+       "points_max": 15,
+       "url": "https://www.prefectures-regions.gouv.fr/auvergne-rhone-alpes/content/download/77557/501248/file/1fevrier2021_n%C2%B0%201_recueil-84-2021-019-recueil-des-actes-administratifs-special(1).pdf",
+       "page": 93,
+       "categorie": "qualite_projet"
+      },
+      {
+       "bloc": "I",
+       "critere": "Localisation géographique",
+       "coef": 1,
+       "points_max": 5,
+       "url": "https://www.prefectures-regions.gouv.fr/auvergne-rhone-alpes/content/download/77557/501248/file/1fevrier2021_n%C2%B0%201_recueil-84-2021-019-recueil-des-actes-administratifs-special(1).pdf",
+       "page": 93,
+       "categorie": "implantation_immobilier"
+      },
+      {
+       "bloc": "I",
+       "critere": "Descriptif des locaux",
+       "coef": 1,
+       "points_max": 5,
+       "url": "https://www.prefectures-regions.gouv.fr/auvergne-rhone-alpes/content/download/77557/501248/file/1fevrier2021_n%C2%B0%201_recueil-84-2021-019-recueil-des-actes-administratifs-special(1).pdf",
+       "page": 93,
+       "categorie": "implantation_immobilier"
+      },
+      {
+       "bloc": "I",
+       "critere": "Organisation de la prise en charge",
+       "coef": 6,
+       "points_max": 30,
+       "url": "https://www.prefectures-regions.gouv.fr/auvergne-rhone-alpes/content/download/77557/501248/file/1fevrier2021_n%C2%B0%201_recueil-84-2021-019-recueil-des-actes-administratifs-special(1).pdf",
+       "page": 93,
+       "categorie": "qualite_projet"
+      },
+      {
+       "bloc": "I",
+       "critere": "Mise en œuvre des droits des usagers",
+       "coef": 3,
+       "points_max": 15,
+       "url": "https://www.prefectures-regions.gouv.fr/auvergne-rhone-alpes/content/download/77557/501248/file/1fevrier2021_n%C2%B0%201_recueil-84-2021-019-recueil-des-actes-administratifs-special(1).pdf",
+       "page": 93,
+       "categorie": "qualite_projet"
+      },
+      {
+       "bloc": "I",
+       "critere": "Modalités d’accompagnements proposés",
+       "coef": 7,
+       "points_max": 35,
+       "url": "https://www.prefectures-regions.gouv.fr/auvergne-rhone-alpes/content/download/77557/501248/file/1fevrier2021_n%C2%B0%201_recueil-84-2021-019-recueil-des-actes-administratifs-special(1).pdf",
+       "page": 93,
+       "categorie": "qualite_projet"
+      },
+      {
+       "bloc": "I",
+       "critere": "Complémentarité / collaboration formalisée avec les partenaires",
+       "coef": 4,
+       "points_max": 20,
+       "url": "https://www.prefectures-regions.gouv.fr/auvergne-rhone-alpes/content/download/77557/501248/file/1fevrier2021_n%C2%B0%201_recueil-84-2021-019-recueil-des-actes-administratifs-special(1).pdf",
+       "page": 94,
+       "categorie": "partenariats"
+      },
+      {
+       "bloc": "I",
+       "critere": "Composition de l’équipe",
+       "coef": 4,
+       "points_max": 20,
+       "url": "https://www.prefectures-regions.gouv.fr/auvergne-rhone-alpes/content/download/77557/501248/file/1fevrier2021_n%C2%B0%201_recueil-84-2021-019-recueil-des-actes-administratifs-special(1).pdf",
+       "page": 94,
+       "categorie": "qualite_projet"
+      },
+      {
+       "bloc": "I",
+       "critere": "Qualification et formation du personnel",
+       "coef": 2,
+       "points_max": 10,
+       "url": "https://www.prefectures-regions.gouv.fr/auvergne-rhone-alpes/content/download/77557/501248/file/1fevrier2021_n%C2%B0%201_recueil-84-2021-019-recueil-des-actes-administratifs-special(1).pdf",
+       "page": 94,
+       "categorie": "qualite_projet"
+      },
+      {
+       "bloc": "II",
+       "critere": "Sincérité et soutenabilité du budget proposé en exploitation et en investissement",
+       "coef": 6,
+       "points_max": 30,
+       "url": "https://www.prefectures-regions.gouv.fr/auvergne-rhone-alpes/content/download/77557/501248/file/1fevrier2021_n%C2%B0%201_recueil-84-2021-019-recueil-des-actes-administratifs-special(1).pdf",
+       "page": 94,
+       "categorie": "cout_financement"
+      },
+      {
+       "bloc": "II",
+       "critere": "Respect et optimisation de l’enveloppe budgétaire disponible",
+       "coef": 1,
+       "points_max": 5,
+       "url": "https://www.prefectures-regions.gouv.fr/auvergne-rhone-alpes/content/download/77557/501248/file/1fevrier2021_n%C2%B0%201_recueil-84-2021-019-recueil-des-actes-administratifs-special(1).pdf",
+       "page": 95,
+       "categorie": "cout_financement"
+      },
+      {
+       "bloc": "II",
+       "critere": "Efficience globale du projet",
+       "coef": 5,
+       "points_max": 25,
+       "url": "https://www.prefectures-regions.gouv.fr/auvergne-rhone-alpes/content/download/77557/501248/file/1fevrier2021_n%C2%B0%201_recueil-84-2021-019-recueil-des-actes-administratifs-special(1).pdf",
+       "page": 95,
+       "categorie": "cout_financement"
+      },
+      {
+       "bloc": "III",
+       "critere": "Capacité à faire",
+       "coef": 8,
+       "points_max": 40,
+       "url": "https://www.prefectures-regions.gouv.fr/auvergne-rhone-alpes/content/download/77557/501248/file/1fevrier2021_n%C2%B0%201_recueil-84-2021-019-recueil-des-actes-administratifs-special(1).pdf",
+       "page": 95,
+       "categorie": "experience_porteur"
+      },
+      {
+       "bloc": "III",
+       "critere": "Calendrier du projet",
+       "coef": 1,
+       "points_max": 5,
+       "url": "https://www.prefectures-regions.gouv.fr/auvergne-rhone-alpes/content/download/77557/501248/file/1fevrier2021_n%C2%B0%201_recueil-84-2021-019-recueil-des-actes-administratifs-special(1).pdf",
+       "page": 95,
+       "categorie": "delai_mise_en_oeuvre"
+      },
+      {
+       "bloc": "III",
+       "critere": "Délai de réalisation",
+       "coef": 1,
+       "points_max": 5,
+       "url": "https://www.prefectures-regions.gouv.fr/auvergne-rhone-alpes/content/download/77557/501248/file/1fevrier2021_n%C2%B0%201_recueil-84-2021-019-recueil-des-actes-administratifs-special(1).pdf",
+       "page": 95,
+       "categorie": "delai_mise_en_oeuvre"
+      },
+      {
+       "bloc": "IV",
+       "critere": "Calendrier d’évaluation",
+       "coef": 1,
+       "points_max": 5,
+       "url": "https://www.prefectures-regions.gouv.fr/auvergne-rhone-alpes/content/download/77557/501248/file/1fevrier2021_n%C2%B0%201_recueil-84-2021-019-recueil-des-actes-administratifs-special(1).pdf",
+       "page": 95,
+       "categorie": "qualite_projet"
+      },
+      {
+       "bloc": "IV",
+       "critere": "Modalités de pilotage de la démarche d'évaluation et pertinence des critères d’évaluation proposés",
+       "coef": 4,
+       "points_max": 20,
+       "url": "https://www.prefectures-regions.gouv.fr/auvergne-rhone-alpes/content/download/77557/501248/file/1fevrier2021_n%C2%B0%201_recueil-84-2021-019-recueil-des-actes-administratifs-special(1).pdf",
+       "page": 95,
+       "categorie": "qualite_projet"
+      }
+     ],
+     "total_points": 300,
+     "par_categorie": {
+      "qualite_projet": {
+       "points": 160,
+       "pct": 53.3
+      },
+      "cout_financement": {
+       "points": 60,
+       "pct": 20.0
+      },
+      "implantation_immobilier": {
+       "points": 10,
+       "pct": 3.3
+      },
+      "delai_mise_en_oeuvre": {
+       "points": 10,
+       "pct": 3.3
+      },
+      "partenariats": {
+       "points": 20,
+       "pct": 6.7
+      },
+      "experience_porteur": {
+       "points": 40,
+       "pct": 13.3
+      }
+     },
+     "controle_total": {
+      "coef_annonce": 60,
+      "coef_lus": 60,
+      "points_annonces": 300,
+      "statut": "ok"
+     }
+    },
+    "jointure": "n° AAP"
+   },
+   "classement": {
+    "type_doc": "classement",
+    "url": "https://www.auvergne-rhone-alpes.ars.sante.fr/index.php/media/79849/download",
+    "pages": [
+     1,
+     1
+    ],
+    "nb_pages_pdf": 1,
+    "texte_vide": 0,
+    "champs": {
+     "aap_id": {
+      "valeur": "2021-69-ACT",
+      "url": "https://www.auvergne-rhone-alpes.ars.sante.fr/index.php/media/79849/download",
+      "page": 1
+     },
+     "objet": {
+      "valeur": "40 places d'appartements de coordination thérapeutique (ACT) dont 24 « hors les murs » sur la Métropole de Lyon",
+      "url": "https://www.auvergne-rhone-alpes.ars.sante.fr/index.php/media/79849/download",
+      "page": 1
+     },
+     "places": {
+      "valeur": 40,
+      "url": "https://www.auvergne-rhone-alpes.ars.sante.fr/index.php/media/79849/download",
+      "page": 1
+     },
+     "territoire": {
+      "valeur": "Métropole de Lyon",
+      "url": "https://www.auvergne-rhone-alpes.ars.sante.fr/index.php/media/79849/download",
+      "page": 1
+     },
+     "type": {
+      "valeur": "appartements de coordination thérapeutique",
+      "url": "https://www.auvergne-rhone-alpes.ars.sante.fr/index.php/media/79849/download",
+      "page": 1
+     },
+     "nb_projets_recus": {
+      "valeur": "trois",
+      "url": "https://www.auvergne-rhone-alpes.ars.sante.fr/index.php/media/79849/download",
+      "page": 1
+     },
+     "date_commission": {
+      "valeur": "2021-06-29",
+      "url": "https://www.auvergne-rhone-alpes.ars.sante.fr/index.php/media/79849/download",
+      "page": 1
+     },
+     "date_avis_classement": {
+      "valeur": "2021-07-05",
+      "url": "https://www.auvergne-rhone-alpes.ars.sante.fr/index.php/media/79849/download",
+      "page": 1
+     },
+     "classement": {
+      "valeur": [
+       {
+        "rang": 1,
+        "forme": "association",
+        "nom": "ALYNEA",
+        "ex_aequo": false
+       },
+       {
+        "rang": 2,
+        "forme": "association",
+        "nom": "BASILIADE",
+        "ex_aequo": false
+       },
+       {
+        "rang": 3,
+        "forme": "association",
+        "nom": "GROUPE SOS SOLIDARITES",
+        "ex_aequo": false
+       }
+      ],
+      "url": "https://www.auvergne-rhone-alpes.ars.sante.fr/index.php/media/79849/download",
+      "page": 1
+     }
+    },
+    "citations": [],
+    "jointure": "n° AAP"
+   },
+   "autorisation": {
+    "type_doc": "autorisation",
+    "url": "https://www.prefectures-regions.gouv.fr/content/download/86817/558379/file/30septembre2021_recueil-84-2021-174-recueil-des-actes-administratifs-special.pdf",
+    "pages": [
+     7,
+     11
+    ],
+    "nb_pages_pdf": 79,
+    "texte_vide": 0,
+    "champs": {
+     "aap_id": {
+      "valeur": "2021-69-ACT",
+      "url": "https://www.prefectures-regions.gouv.fr/content/download/86817/558379/file/30septembre2021_recueil-84-2021-174-recueil-des-actes-administratifs-special.pdf",
+      "page": 8
+     },
+     "places": {
+      "valeur": 16,
+      "url": "https://www.prefectures-regions.gouv.fr/content/download/86817/558379/file/30septembre2021_recueil-84-2021-174-recueil-des-actes-administratifs-special.pdf",
+      "page": 7
+     },
+     "territoire": {
+      "valeur": "Métropole de Lyon",
+      "url": "https://www.prefectures-regions.gouv.fr/content/download/86817/558379/file/30septembre2021_recueil-84-2021-174-recueil-des-actes-administratifs-special.pdf",
+      "page": 7
+     },
+     "type": {
+      "valeur": "appartements de coordination thérapeutique",
+      "url": "https://www.prefectures-regions.gouv.fr/content/download/86817/558379/file/30septembre2021_recueil-84-2021-174-recueil-des-actes-administratifs-special.pdf",
+      "page": 7
+     },
+     "numero_acte": {
+      "valeur": "2021-10-0321",
+      "url": "https://www.prefectures-regions.gouv.fr/content/download/86817/558379/file/30septembre2021_recueil-84-2021-174-recueil-des-actes-administratifs-special.pdf",
+      "page": 7
+     },
+     "date_autorisation": {
+      "valeur": "2021-09-23",
+      "url": "https://www.prefectures-regions.gouv.fr/content/download/86817/558379/file/30septembre2021_recueil-84-2021-174-recueil-des-actes-administratifs-special.pdf",
+      "page": 11
+     },
+     "places_mentionnees": {
+      "valeur": [
+       16,
+       24
+      ],
+      "url": "https://www.prefectures-regions.gouv.fr/content/download/86817/558379/file/30septembre2021_recueil-84-2021-174-recueil-des-actes-administratifs-special.pdf",
+      "page": 7
+     },
+     "beneficiaire": {
+      "valeur": {
+       "forme": "association",
+       "nom": "LYONNAISE NOUVELLE D'ÉCOUTE ET D'ACCOMPAGNEMENT (A.L.Y.N.E.A.)"
+      },
+      "url": "https://www.prefectures-regions.gouv.fr/content/download/86817/558379/file/30septembre2021_recueil-84-2021-174-recueil-des-actes-administratifs-special.pdf",
+      "page": 7
+     },
+     "avis_publie_le": {
+      "valeur": "2021-02-01",
+      "url": "https://www.prefectures-regions.gouv.fr/content/download/86817/558379/file/30septembre2021_recueil-84-2021-174-recueil-des-actes-administratifs-special.pdf",
+      "page": 8
+     }
+    },
+    "citations": [],
+    "jointure": "n° AAP"
+   },
+   "autorisation_citee": null,
+   "controles": [
+    {
+     "regle": "bénéficiaire = rang 1 du classement",
+     "statut": "ok"
+    },
+    {
+     "regle": "autorisation ≤ date limite + 6 mois (R313-7)",
+     "borne": "2021-10-02",
+     "date_autorisation": "2021-09-23",
+     "statut": "ok"
+    }
+   ],
+   "confiance": {
+    "score": 1.0,
+    "niveau": "forte"
+   },
+   "non_trouve": {},
+   "bonus": false
+  },
+  {
+   "aap_id": "2022-69-ACT",
+   "objet": "création de 20 places d'appartements de coordination thérapeutique (ACT) dont 10 « hors les murs » dans le département du Rhône",
+   "type": "appartements de coordination thérapeutique",
+   "territoire": "Rhône",
+   "places": 20,
+   "avis": {
+    "type_doc": "avis",
+    "url": "https://www.prefectures-regions.gouv.fr/content/download/91653/586983/file/31janvier2022_recueil-84-2022-021-recueil-des-actes-administratifs-special.pdf",
+    "pages": [
+     168,
+     197
+    ],
+    "nb_pages_pdf": 217,
+    "texte_vide": 0,
+    "champs": {
+     "aap_id": {
+      "valeur": "2022-69-ACT",
+      "url": "https://www.prefectures-regions.gouv.fr/content/download/91653/586983/file/31janvier2022_recueil-84-2022-021-recueil-des-actes-administratifs-special.pdf",
+      "page": 172
+     },
+     "objet": {
+      "valeur": "création de 20 places d'appartements de coordination thérapeutique (ACT) dont 10 « hors les murs » dans le département du Rhône",
+      "url": "https://www.prefectures-regions.gouv.fr/content/download/91653/586983/file/31janvier2022_recueil-84-2022-021-recueil-des-actes-administratifs-special.pdf",
+      "page": 169
+     },
+     "places": {
+      "valeur": 20,
+      "url": "https://www.prefectures-regions.gouv.fr/content/download/91653/586983/file/31janvier2022_recueil-84-2022-021-recueil-des-actes-administratifs-special.pdf",
+      "page": 168
+     },
+     "territoire": {
+      "valeur": "Rhône",
+      "url": "https://www.prefectures-regions.gouv.fr/content/download/91653/586983/file/31janvier2022_recueil-84-2022-021-recueil-des-actes-administratifs-special.pdf",
+      "page": 168
+     },
+     "type": {
+      "valeur": "appartements de coordination thérapeutique",
+      "url": "https://www.prefectures-regions.gouv.fr/content/download/91653/586983/file/31janvier2022_recueil-84-2022-021-recueil-des-actes-administratifs-special.pdf",
+      "page": 168
+     },
+     "date_publication": {
+      "valeur": "2022-02-03",
+      "url": "https://www.prefectures-regions.gouv.fr/content/download/91653/586983/file/31janvier2022_recueil-84-2022-021-recueil-des-actes-administratifs-special.pdf",
+      "page": 173
+     },
+     "date_limite_depot": {
+      "valeur": "2022-04-04",
+      "url": "https://www.prefectures-regions.gouv.fr/content/download/91653/586983/file/31janvier2022_recueil-84-2022-021-recueil-des-actes-administratifs-special.pdf",
+      "page": 173
+     }
+    },
+    "citations": [],
+    "criteres": {
+     "methode": "regles",
+     "criteres": [
+      {
+       "bloc": "I",
+       "critere": "Clarté et lisibilité du projet",
+       "coef": 2,
+       "points_max": 10,
+       "url": "https://www.prefectures-regions.gouv.fr/content/download/91653/586983/file/31janvier2022_recueil-84-2022-021-recueil-des-actes-administratifs-special.pdf",
+       "page": 194,
+       "categorie": "qualite_projet"
+      },
+      {
+       "bloc": "I",
+       "critere": "Publics",
+       "coef": 3,
+       "points_max": 15,
+       "url": "https://www.prefectures-regions.gouv.fr/content/download/91653/586983/file/31janvier2022_recueil-84-2022-021-recueil-des-actes-administratifs-special.pdf",
+       "page": 194,
+       "categorie": "qualite_projet"
+      },
+      {
+       "bloc": "I",
+       "critere": "Localisation géographique",
+       "coef": 1,
+       "points_max": 5,
+       "url": "https://www.prefectures-regions.gouv.fr/content/download/91653/586983/file/31janvier2022_recueil-84-2022-021-recueil-des-actes-administratifs-special.pdf",
+       "page": 194,
+       "categorie": "implantation_immobilier"
+      },
+      {
+       "bloc": "I",
+       "critere": "Descriptif des locaux",
+       "coef": 1,
+       "points_max": 5,
+       "url": "https://www.prefectures-regions.gouv.fr/content/download/91653/586983/file/31janvier2022_recueil-84-2022-021-recueil-des-actes-administratifs-special.pdf",
+       "page": 194,
+       "categorie": "implantation_immobilier"
+      },
+      {
+       "bloc": "I",
+       "critere": "Organisation de la prise en charge",
+       "coef": 6,
+       "points_max": 30,
+       "url": "https://www.prefectures-regions.gouv.fr/content/download/91653/586983/file/31janvier2022_recueil-84-2022-021-recueil-des-actes-administratifs-special.pdf",
+       "page": 194,
+       "categorie": "qualite_projet"
+      },
+      {
+       "bloc": "I",
+       "critere": "Mise en œuvre des droits des usagers",
+       "coef": 3,
+       "points_max": 15,
+       "url": "https://www.prefectures-regions.gouv.fr/content/download/91653/586983/file/31janvier2022_recueil-84-2022-021-recueil-des-actes-administratifs-special.pdf",
+       "page": 194,
+       "categorie": "qualite_projet"
+      },
+      {
+       "bloc": "I",
+       "critere": "Modalités d’accompagnements proposés",
+       "coef": 7,
+       "points_max": 35,
+       "url": "https://www.prefectures-regions.gouv.fr/content/download/91653/586983/file/31janvier2022_recueil-84-2022-021-recueil-des-actes-administratifs-special.pdf",
+       "page": 194,
+       "categorie": "qualite_projet"
+      },
+      {
+       "bloc": "I",
+       "critere": "Complémentarité / collaboration formalisée avec les partenaires",
+       "coef": 4,
+       "points_max": 20,
+       "url": "https://www.prefectures-regions.gouv.fr/content/download/91653/586983/file/31janvier2022_recueil-84-2022-021-recueil-des-actes-administratifs-special.pdf",
+       "page": 195,
+       "categorie": "partenariats"
+      },
+      {
+       "bloc": "I",
+       "critere": "Composition de l’équipe",
+       "coef": 4,
+       "points_max": 20,
+       "url": "https://www.prefectures-regions.gouv.fr/content/download/91653/586983/file/31janvier2022_recueil-84-2022-021-recueil-des-actes-administratifs-special.pdf",
+       "page": 195,
+       "categorie": "qualite_projet"
+      },
+      {
+       "bloc": "I",
+       "critere": "Qualification et formation du personnel",
+       "coef": 2,
+       "points_max": 10,
+       "url": "https://www.prefectures-regions.gouv.fr/content/download/91653/586983/file/31janvier2022_recueil-84-2022-021-recueil-des-actes-administratifs-special.pdf",
+       "page": 195,
+       "categorie": "qualite_projet"
+      },
+      {
+       "bloc": "II",
+       "critere": "Sincérité et soutenabilité du budget proposé en exploitation et en investissement",
+       "coef": 6,
+       "points_max": 30,
+       "url": "https://www.prefectures-regions.gouv.fr/content/download/91653/586983/file/31janvier2022_recueil-84-2022-021-recueil-des-actes-administratifs-special.pdf",
+       "page": 195,
+       "categorie": "cout_financement"
+      },
+      {
+       "bloc": "II",
+       "critere": "Respect et optimisation de l’enveloppe budgétaire disponible",
+       "coef": 1,
+       "points_max": 5,
+       "url": "https://www.prefectures-regions.gouv.fr/content/download/91653/586983/file/31janvier2022_recueil-84-2022-021-recueil-des-actes-administratifs-special.pdf",
+       "page": 196,
+       "categorie": "cout_financement"
+      },
+      {
+       "bloc": "II",
+       "critere": "Efficience globale du projet",
+       "coef": 5,
+       "points_max": 25,
+       "url": "https://www.prefectures-regions.gouv.fr/content/download/91653/586983/file/31janvier2022_recueil-84-2022-021-recueil-des-actes-administratifs-special.pdf",
+       "page": 196,
+       "categorie": "cout_financement"
+      },
+      {
+       "bloc": "III",
+       "critere": "Capacité à faire",
+       "coef": 8,
+       "points_max": 40,
+       "url": "https://www.prefectures-regions.gouv.fr/content/download/91653/586983/file/31janvier2022_recueil-84-2022-021-recueil-des-actes-administratifs-special.pdf",
+       "page": 196,
+       "categorie": "experience_porteur"
+      },
+      {
+       "bloc": "III",
+       "critere": "Calendrier du projet",
+       "coef": 1,
+       "points_max": 5,
+       "url": "https://www.prefectures-regions.gouv.fr/content/download/91653/586983/file/31janvier2022_recueil-84-2022-021-recueil-des-actes-administratifs-special.pdf",
+       "page": 196,
+       "categorie": "delai_mise_en_oeuvre"
+      },
+      {
+       "bloc": "III",
+       "critere": "Délai de réalisation",
+       "coef": 1,
+       "points_max": 5,
+       "url": "https://www.prefectures-regions.gouv.fr/content/download/91653/586983/file/31janvier2022_recueil-84-2022-021-recueil-des-actes-administratifs-special.pdf",
+       "page": 196,
+       "categorie": "delai_mise_en_oeuvre"
+      },
+      {
+       "bloc": "IV",
+       "critere": "Calendrier d’évaluation",
+       "coef": 1,
+       "points_max": 5,
+       "url": "https://www.prefectures-regions.gouv.fr/content/download/91653/586983/file/31janvier2022_recueil-84-2022-021-recueil-des-actes-administratifs-special.pdf",
+       "page": 196,
+       "categorie": "qualite_projet"
+      },
+      {
+       "bloc": "IV",
+       "critere": "Modalités de pilotage de la démarche d'évaluation et pertinence des critères d’évaluation proposés",
+       "coef": 4,
+       "points_max": 20,
+       "url": "https://www.prefectures-regions.gouv.fr/content/download/91653/586983/file/31janvier2022_recueil-84-2022-021-recueil-des-actes-administratifs-special.pdf",
+       "page": 196,
+       "categorie": "qualite_projet"
+      }
+     ],
+     "total_points": 300,
+     "par_categorie": {
+      "qualite_projet": {
+       "points": 160,
+       "pct": 53.3
+      },
+      "cout_financement": {
+       "points": 60,
+       "pct": 20.0
+      },
+      "implantation_immobilier": {
+       "points": 10,
+       "pct": 3.3
+      },
+      "delai_mise_en_oeuvre": {
+       "points": 10,
+       "pct": 3.3
+      },
+      "partenariats": {
+       "points": 20,
+       "pct": 6.7
+      },
+      "experience_porteur": {
+       "points": 40,
+       "pct": 13.3
+      }
+     },
+     "controle_total": {
+      "coef_annonce": 60,
+      "coef_lus": 60,
+      "points_annonces": 300,
+      "statut": "ok"
+     }
+    },
+    "jointure": "n° AAP"
+   },
+   "classement": {
+    "type_doc": "classement",
+    "url": "https://www.prefectures-regions.gouv.fr/auvergne-rhone-alpes/content/download/96848/618277/file/11juillet2022_n%C2%B02_recueil-84-2022-148-recueil-des-actes-administratifs-special.pdf",
+    "pages": [
+     31,
+     31
+    ],
+    "nb_pages_pdf": 64,
+    "texte_vide": 0,
+    "champs": {
+     "aap_id": {
+      "valeur": "2022-69-ACT",
+      "url": "https://www.prefectures-regions.gouv.fr/auvergne-rhone-alpes/content/download/96848/618277/file/11juillet2022_n%C2%B02_recueil-84-2022-148-recueil-des-actes-administratifs-special.pdf",
+      "page": 31
+     },
+     "objet": {
+      "valeur": "20 places d'Appartements de Coordination Thérapeutique (ACT) dont 10 « hors les murs » dans le département du Rhône",
+      "url": "https://www.prefectures-regions.gouv.fr/auvergne-rhone-alpes/content/download/96848/618277/file/11juillet2022_n%C2%B02_recueil-84-2022-148-recueil-des-actes-administratifs-special.pdf",
+      "page": 31
+     },
+     "places": {
+      "valeur": 20,
+      "url": "https://www.prefectures-regions.gouv.fr/auvergne-rhone-alpes/content/download/96848/618277/file/11juillet2022_n%C2%B02_recueil-84-2022-148-recueil-des-actes-administratifs-special.pdf",
+      "page": 31
+     },
+     "territoire": {
+      "valeur": "Rhône",
+      "url": "https://www.prefectures-regions.gouv.fr/auvergne-rhone-alpes/content/download/96848/618277/file/11juillet2022_n%C2%B02_recueil-84-2022-148-recueil-des-actes-administratifs-special.pdf",
+      "page": 31
+     },
+     "type": {
+      "valeur": "appartements de coordination thérapeutique",
+      "url": "https://www.prefectures-regions.gouv.fr/auvergne-rhone-alpes/content/download/96848/618277/file/11juillet2022_n%C2%B02_recueil-84-2022-148-recueil-des-actes-administratifs-special.pdf",
+      "page": 31
+     },
+     "nb_projets_recus": {
+      "valeur": "trois",
+      "url": "https://www.prefectures-regions.gouv.fr/auvergne-rhone-alpes/content/download/96848/618277/file/11juillet2022_n%C2%B02_recueil-84-2022-148-recueil-des-actes-administratifs-special.pdf",
+      "page": 31
+     },
+     "date_commission": {
+      "valeur": "2022-06-28",
+      "url": "https://www.prefectures-regions.gouv.fr/auvergne-rhone-alpes/content/download/96848/618277/file/11juillet2022_n%C2%B02_recueil-84-2022-148-recueil-des-actes-administratifs-special.pdf",
+      "page": 31
+     },
+     "date_avis_classement": {
+      "valeur": "2022-07-07",
+      "url": "https://www.prefectures-regions.gouv.fr/auvergne-rhone-alpes/content/download/96848/618277/file/11juillet2022_n%C2%B02_recueil-84-2022-148-recueil-des-actes-administratifs-special.pdf",
+      "page": 31
+     },
+     "classement": {
+      "valeur": [
+       {
+        "rang": 1,
+        "forme": "association",
+        "nom": "OPPELIA",
+        "ex_aequo": false
+       },
+       {
+        "rang": 2,
+        "forme": "association",
+        "nom": "LE FOYER NOTRE-DAME DES SANS-ABRI",
+        "ex_aequo": false
+       },
+       {
+        "rang": 3,
+        "forme": "association",
+        "nom": "BASILIADE",
+        "ex_aequo": false
+       }
+      ],
+      "url": "https://www.prefectures-regions.gouv.fr/auvergne-rhone-alpes/content/download/96848/618277/file/11juillet2022_n%C2%B02_recueil-84-2022-148-recueil-des-actes-administratifs-special.pdf",
+      "page": 31
+     }
+    },
+    "citations": [],
+    "jointure": "n° AAP"
+   },
+   "autorisation": {
+    "type_doc": "autorisation",
+    "url": "https://www.prefectures-regions.gouv.fr/auvergne-rhone-alpes/irecontenu/telechargement/98987/630905/file/4octobre2022_recueil-84-2022-218-recueil-des-actes-administratifs-special.pdf",
+    "pages": [
+     12,
+     15
+    ],
+    "nb_pages_pdf": 51,
+    "texte_vide": 0,
+    "champs": {
+     "aap_id": {
+      "valeur": "2022-69-ACT",
+      "url": "https://www.prefectures-regions.gouv.fr/auvergne-rhone-alpes/irecontenu/telechargement/98987/630905/file/4octobre2022_recueil-84-2022-218-recueil-des-actes-administratifs-special.pdf",
+      "page": 13
+     },
+     "objet": {
+      "valeur": "20 places d'Appartements de Coordination Thérapeutique (ACT) dont 10 « hors les murs » dans le département du Rhône",
+      "url": "https://www.prefectures-regions.gouv.fr/auvergne-rhone-alpes/irecontenu/telechargement/98987/630905/file/4octobre2022_recueil-84-2022-218-recueil-des-actes-administratifs-special.pdf",
+      "page": 14
+     },
+     "places": {
+      "valeur": 20,
+      "url": "https://www.prefectures-regions.gouv.fr/auvergne-rhone-alpes/irecontenu/telechargement/98987/630905/file/4octobre2022_recueil-84-2022-218-recueil-des-actes-administratifs-special.pdf",
+      "page": 12
+     },
+     "territoire": {
+      "valeur": "Rhône",
+      "url": "https://www.prefectures-regions.gouv.fr/auvergne-rhone-alpes/irecontenu/telechargement/98987/630905/file/4octobre2022_recueil-84-2022-218-recueil-des-actes-administratifs-special.pdf",
+      "page": 12
+     },
+     "type": {
+      "valeur": "appartements de coordination thérapeutique",
+      "url": "https://www.prefectures-regions.gouv.fr/auvergne-rhone-alpes/irecontenu/telechargement/98987/630905/file/4octobre2022_recueil-84-2022-218-recueil-des-actes-administratifs-special.pdf",
+      "page": 12
+     },
+     "numero_acte": {
+      "valeur": "2022-10-0132",
+      "url": "https://www.prefectures-regions.gouv.fr/auvergne-rhone-alpes/irecontenu/telechargement/98987/630905/file/4octobre2022_recueil-84-2022-218-recueil-des-actes-administratifs-special.pdf",
+      "page": 12
+     },
+     "date_autorisation": {
+      "valeur": "2022-09-20",
+      "url": "https://www.prefectures-regions.gouv.fr/auvergne-rhone-alpes/irecontenu/telechargement/98987/630905/file/4octobre2022_recueil-84-2022-218-recueil-des-actes-administratifs-special.pdf",
+      "page": 15
+     },
+     "places_mentionnees": {
+      "valeur": [
+       20
+      ],
+      "url": "https://www.prefectures-regions.gouv.fr/auvergne-rhone-alpes/irecontenu/telechargement/98987/630905/file/4octobre2022_recueil-84-2022-218-recueil-des-actes-administratifs-special.pdf",
+      "page": 12
+     },
+     "beneficiaire": {
+      "valeur": {
+       "forme": "association",
+       "nom": "OPPELIA"
+      },
+      "url": "https://www.prefectures-regions.gouv.fr/auvergne-rhone-alpes/irecontenu/telechargement/98987/630905/file/4octobre2022_recueil-84-2022-218-recueil-des-actes-administratifs-special.pdf",
+      "page": 12
+     },
+     "avis_publie_le": {
+      "valeur": "2022-01-31",
+      "url": "https://www.prefectures-regions.gouv.fr/auvergne-rhone-alpes/irecontenu/telechargement/98987/630905/file/4octobre2022_recueil-84-2022-218-recueil-des-actes-administratifs-special.pdf",
+      "page": 13
+     }
+    },
+    "citations": [],
+    "jointure": "n° AAP"
+   },
+   "autorisation_citee": null,
+   "controles": [
+    {
+     "regle": "bénéficiaire = rang 1 du classement",
+     "statut": "ok"
+    },
+    {
+     "regle": "autorisation ≤ date limite + 6 mois (R313-7)",
+     "borne": "2022-10-04",
+     "date_autorisation": "2022-09-20",
+     "statut": "ok"
+    }
+   ],
+   "confiance": {
+    "score": 1.0,
+    "niveau": "forte"
+   },
+   "non_trouve": {},
+   "bonus": false
+  },
+  {
+   "aap_id": "2024-15-EMSP",
+   "objet": "équipe mobile santé précarité (EMSP) intervenant auprès de personnes confrontées à des difficultés spécifiques dans le département du Cantal",
+   "type": "équipe mobile santé précarité",
+   "territoire": "Cantal",
+   "places": null,
+   "avis": null,
+   "classement": {
+    "type_doc": "classement",
+    "url": "https://www.auvergne-rhone-alpes.ars.sante.fr/media/129968/download",
+    "pages": [
+     1,
+     1
+    ],
+    "nb_pages_pdf": 1,
+    "texte_vide": 0,
+    "champs": {
+     "aap_id": {
+      "valeur": "2024-15-EMSP",
+      "url": "https://www.auvergne-rhone-alpes.ars.sante.fr/media/129968/download",
+      "page": 1
+     },
+     "objet": {
+      "valeur": "équipe mobile santé précarité (EMSP) intervenant auprès de personnes confrontées à des difficultés spécifiques dans le département du Cantal",
+      "url": "https://www.auvergne-rhone-alpes.ars.sante.fr/media/129968/download",
+      "page": 1
+     },
+     "territoire": {
+      "valeur": "Cantal",
+      "url": "https://www.auvergne-rhone-alpes.ars.sante.fr/media/129968/download",
+      "page": 1
+     },
+     "type": {
+      "valeur": "équipe mobile santé précarité",
+      "url": "https://www.auvergne-rhone-alpes.ars.sante.fr/media/129968/download",
+      "page": 1
+     },
+     "nb_projets_recus": {
+      "valeur": "cinq",
+      "url": "https://www.auvergne-rhone-alpes.ars.sante.fr/media/129968/download",
+      "page": 1
+     },
+     "date_commission": {
+      "valeur": "2024-09-27",
+      "url": "https://www.auvergne-rhone-alpes.ars.sante.fr/media/129968/download",
+      "page": 1
+     },
+     "date_avis_classement": {
+      "valeur": "2024-09-27",
+      "url": "https://www.auvergne-rhone-alpes.ars.sante.fr/media/129968/download",
+      "page": 1
+     },
+     "classement": {
+      "valeur": [
+       {
+        "rang": 1,
+        "forme": "association",
+        "nom": "ANEF CANTAL",
+        "ex_aequo": false
+       },
+       {
+        "rang": 2,
+        "forme": "association",
+        "nom": "ACSL'AAH",
+        "ex_aequo": false
+       },
+       {
+        "rang": 3,
+        "forme": "association",
+        "nom": "CHEMINS D'ESPERANCE",
+        "ex_aequo": false
+       },
+       {
+        "rang": 4,
+        "forme": "association",
+        "nom": "AURORE",
+        "ex_aequo": true
+       },
+       {
+        "rang": 4,
+        "forme": "association",
+        "nom": "VILTAÏS",
+        "ex_aequo": true
+       }
+      ],
+      "url": "https://www.auvergne-rhone-alpes.ars.sante.fr/media/129968/download",
+      "page": 1
+     }
+    },
+    "citations": [],
+    "jointure": "n° AAP"
+   },
+   "autorisation": null,
+   "autorisation_citee": {
+    "numero_acte": "2024-04-0030",
+    "date": "2024-11-04",
+    "texte_type": ", à compter du 04 novembre 2024, la création, dans le département du Cantal d'une équipe mobile santé précarité (ESMP)",
+    "beneficiaire": {
+     "forme": "association",
+     "nom": "ANEF CANTAL"
+    },
+    "url": "https://www.prefectures-regions.gouv.fr/auvergne-rhone-alpes/irecontenu/telechargement/133043/975986/file/20251127_recueil-84-2025-334-recueil-des-actes-administratifs-special.pdf",
+    "page": 33
+   },
+   "controles": [
+    {
+     "regle": "bénéficiaire = rang 1 du classement",
+     "statut": "ok"
+    },
+    {
+     "regle": "autorisation ≤ date limite + 6 mois (R313-7)",
+     "statut": "non vérifiable",
+     "raison": "date limite inconnue"
+    }
+   ],
+   "confiance": {
+    "score": 0.6,
+    "niveau": "moyenne"
+   },
+   "non_trouve": {
+    "avis": [
+     "Page ARS de l'AAP : « Accès refusé » (page dépubliée après clôture).",
+     "Recherche web sur le domaine prefectures-regions.gouv.fr (RAA février 2024) : aucun avis EMSP Cantal identifié."
+    ],
+    "autorisation": [
+     "RAA 84-2024-327 (6/11/2024), 84-2024-345 (25/11/2024), 84-2024-350 (2/12/2024) parcourus par le pipeline.",
+     "Décision citée (« Vu… ») dans un acte de tarification du RAA 84-2025-334 : preuve indirecte seulement."
+    ]
+   },
+   "bonus": false
+  },
+  {
+   "aap_id": "2022-03-ACT",
+   "objet": "4 places d'appartements de coordination thérapeutique (ACT) dans le département de l'Allier et plus précisément dans l'arrondissement de Montluçon",
+   "type": "appartements de coordination thérapeutique",
+   "territoire": "Allier",
+   "places": 4,
+   "avis": {
+    "type_doc": "avis",
+    "url": "https://www.prefectures-regions.gouv.fr/content/download/91653/586983/file/31janvier2022_recueil-84-2022-021-recueil-des-actes-administratifs-special.pdf",
+    "pages": [
+     8,
+     36
+    ],
+    "nb_pages_pdf": 217,
+    "texte_vide": 0,
+    "champs": {
+     "aap_id": {
+      "valeur": "2022-03-ACT",
+      "url": "https://www.prefectures-regions.gouv.fr/content/download/91653/586983/file/31janvier2022_recueil-84-2022-021-recueil-des-actes-administratifs-special.pdf",
+      "page": 14
+     },
+     "objet": {
+      "valeur": "4 places d'appartements de coordination thérapeutique (ACT) dans le département de l'Allier et plus précisément dans l'arrondissement de Montluçon",
+      "url": "https://www.prefectures-regions.gouv.fr/content/download/91653/586983/file/31janvier2022_recueil-84-2022-021-recueil-des-actes-administratifs-special.pdf",
+      "page": 9
+     },
+     "places": {
+      "valeur": 4,
+      "url": "https://www.prefectures-regions.gouv.fr/content/download/91653/586983/file/31janvier2022_recueil-84-2022-021-recueil-des-actes-administratifs-special.pdf",
+      "page": 8
+     },
+     "territoire": {
+      "valeur": "Allier",
+      "url": "https://www.prefectures-regions.gouv.fr/content/download/91653/586983/file/31janvier2022_recueil-84-2022-021-recueil-des-actes-administratifs-special.pdf",
+      "page": 8
+     },
+     "type": {
+      "valeur": "appartements de coordination thérapeutique",
+      "url": "https://www.prefectures-regions.gouv.fr/content/download/91653/586983/file/31janvier2022_recueil-84-2022-021-recueil-des-actes-administratifs-special.pdf",
+      "page": 8
+     },
+     "date_publication": {
+      "valeur": "2022-02-03",
+      "url": "https://www.prefectures-regions.gouv.fr/content/download/91653/586983/file/31janvier2022_recueil-84-2022-021-recueil-des-actes-administratifs-special.pdf",
+      "page": 14
+     },
+     "date_limite_depot": {
+      "valeur": "2022-04-04",
+      "url": "https://www.prefectures-regions.gouv.fr/content/download/91653/586983/file/31janvier2022_recueil-84-2022-021-recueil-des-actes-administratifs-special.pdf",
+      "page": 14
+     }
+    },
+    "citations": [],
+    "criteres": {
+     "methode": "regles",
+     "criteres": [
+      {
+       "bloc": "I",
+       "critere": "Clarté et lisibilité du projet",
+       "coef": 2,
+       "points_max": 10,
+       "url": "https://www.prefectures-regions.gouv.fr/content/download/91653/586983/file/31janvier2022_recueil-84-2022-021-recueil-des-actes-administratifs-special.pdf",
+       "page": 33,
+       "categorie": "qualite_projet"
+      },
+      {
+       "bloc": "I",
+       "critere": "Publics",
+       "coef": 3,
+       "points_max": 15,
+       "url": "https://www.prefectures-regions.gouv.fr/content/download/91653/586983/file/31janvier2022_recueil-84-2022-021-recueil-des-actes-administratifs-special.pdf",
+       "page": 33,
+       "categorie": "qualite_projet"
+      },
+      {
+       "bloc": "I",
+       "critere": "Localisation géographique",
+       "coef": 1,
+       "points_max": 5,
+       "url": "https://www.prefectures-regions.gouv.fr/content/download/91653/586983/file/31janvier2022_recueil-84-2022-021-recueil-des-actes-administratifs-special.pdf",
+       "page": 33,
+       "categorie": "implantation_immobilier"
+      },
+      {
+       "bloc": "I",
+       "critere": "Descriptif des locaux",
+       "coef": 1,
+       "points_max": 5,
+       "url": "https://www.prefectures-regions.gouv.fr/content/download/91653/586983/file/31janvier2022_recueil-84-2022-021-recueil-des-actes-administratifs-special.pdf",
+       "page": 33,
+       "categorie": "implantation_immobilier"
+      },
+      {
+       "bloc": "I",
+       "critere": "Organisation de la prise en charge",
+       "coef": 6,
+       "points_max": 30,
+       "url": "https://www.prefectures-regions.gouv.fr/content/download/91653/586983/file/31janvier2022_recueil-84-2022-021-recueil-des-actes-administratifs-special.pdf",
+       "page": 33,
+       "categorie": "qualite_projet"
+      },
+      {
+       "bloc": "I",
+       "critere": "Mise en œuvre des droits des usagers",
+       "coef": 3,
+       "points_max": 15,
+       "url": "https://www.prefectures-regions.gouv.fr/content/download/91653/586983/file/31janvier2022_recueil-84-2022-021-recueil-des-actes-administratifs-special.pdf",
+       "page": 33,
+       "categorie": "qualite_projet"
+      },
+      {
+       "bloc": "I",
+       "critere": "Modalités d’accompagnements proposés",
+       "coef": 7,
+       "points_max": 35,
+       "url": "https://www.prefectures-regions.gouv.fr/content/download/91653/586983/file/31janvier2022_recueil-84-2022-021-recueil-des-actes-administratifs-special.pdf",
+       "page": 33,
+       "categorie": "qualite_projet"
+      },
+      {
+       "bloc": "I",
+       "critere": "Complémenta rité / collaboration formalisée avec les partenaires",
+       "coef": 4,
+       "points_max": 20,
+       "url": "https://www.prefectures-regions.gouv.fr/content/download/91653/586983/file/31janvier2022_recueil-84-2022-021-recueil-des-actes-administratifs-special.pdf",
+       "page": 34,
+       "categorie": "partenariats"
+      },
+      {
+       "bloc": "I",
+       "critere": "Composition de l’équipe",
+       "coef": 4,
+       "points_max": 20,
+       "url": "https://www.prefectures-regions.gouv.fr/content/download/91653/586983/file/31janvier2022_recueil-84-2022-021-recueil-des-actes-administratifs-special.pdf",
+       "page": 34,
+       "categorie": "qualite_projet"
+      },
+      {
+       "bloc": "I",
+       "critere": "Qualification et formation du personnel",
+       "coef": 2,
+       "points_max": 10,
+       "url": "https://www.prefectures-regions.gouv.fr/content/download/91653/586983/file/31janvier2022_recueil-84-2022-021-recueil-des-actes-administratifs-special.pdf",
+       "page": 34,
+       "categorie": "qualite_projet"
+      },
+      {
+       "bloc": "II",
+       "critere": "Sincérité et soutenabilité du budget proposé en exploitation et en investissement",
+       "coef": 6,
+       "points_max": 30,
+       "url": "https://www.prefectures-regions.gouv.fr/content/download/91653/586983/file/31janvier2022_recueil-84-2022-021-recueil-des-actes-administratifs-special.pdf",
+       "page": 34,
+       "categorie": "cout_financement"
+      },
+      {
+       "bloc": "II",
+       "critere": "Respect et optimisation de l’enveloppe budgétaire disponible",
+       "coef": 1,
+       "points_max": 5,
+       "url": "https://www.prefectures-regions.gouv.fr/content/download/91653/586983/file/31janvier2022_recueil-84-2022-021-recueil-des-actes-administratifs-special.pdf",
+       "page": 34,
+       "categorie": "cout_financement"
+      },
+      {
+       "bloc": "II",
+       "critere": "Efficience globale du projet",
+       "coef": 5,
+       "points_max": 25,
+       "url": "https://www.prefectures-regions.gouv.fr/content/download/91653/586983/file/31janvier2022_recueil-84-2022-021-recueil-des-actes-administratifs-special.pdf",
+       "page": 35,
+       "categorie": "cout_financement"
+      },
+      {
+       "bloc": "III",
+       "critere": "Capacité à faire",
+       "coef": 8,
+       "points_max": 40,
+       "url": "https://www.prefectures-regions.gouv.fr/content/download/91653/586983/file/31janvier2022_recueil-84-2022-021-recueil-des-actes-administratifs-special.pdf",
+       "page": 35,
+       "categorie": "experience_porteur"
+      },
+      {
+       "bloc": "III",
+       "critere": "Calendrier du projet",
+       "coef": 1,
+       "points_max": 5,
+       "url": "https://www.prefectures-regions.gouv.fr/content/download/91653/586983/file/31janvier2022_recueil-84-2022-021-recueil-des-actes-administratifs-special.pdf",
+       "page": 35,
+       "categorie": "delai_mise_en_oeuvre"
+      },
+      {
+       "bloc": "III",
+       "critere": "Délai de réalisation",
+       "coef": 1,
+       "points_max": 5,
+       "url": "https://www.prefectures-regions.gouv.fr/content/download/91653/586983/file/31janvier2022_recueil-84-2022-021-recueil-des-actes-administratifs-special.pdf",
+       "page": 35,
+       "categorie": "delai_mise_en_oeuvre"
+      },
+      {
+       "bloc": "IV",
+       "critere": "Calendrier d’évaluation",
+       "coef": 1,
+       "points_max": 5,
+       "url": "https://www.prefectures-regions.gouv.fr/content/download/91653/586983/file/31janvier2022_recueil-84-2022-021-recueil-des-actes-administratifs-special.pdf",
+       "page": 35,
+       "categorie": "qualite_projet"
+      },
+      {
+       "bloc": "IV",
+       "critere": "Modalités de pilotage de la démarche d'évaluation et pertinence des critères d’évaluation proposés",
+       "coef": 4,
+       "points_max": 20,
+       "url": "https://www.prefectures-regions.gouv.fr/content/download/91653/586983/file/31janvier2022_recueil-84-2022-021-recueil-des-actes-administratifs-special.pdf",
+       "page": 35,
+       "categorie": "qualite_projet"
+      }
+     ],
+     "total_points": 300,
+     "par_categorie": {
+      "qualite_projet": {
+       "points": 160,
+       "pct": 53.3
+      },
+      "cout_financement": {
+       "points": 60,
+       "pct": 20.0
+      },
+      "implantation_immobilier": {
+       "points": 10,
+       "pct": 3.3
+      },
+      "delai_mise_en_oeuvre": {
+       "points": 10,
+       "pct": 3.3
+      },
+      "partenariats": {
+       "points": 20,
+       "pct": 6.7
+      },
+      "experience_porteur": {
+       "points": 40,
+       "pct": 13.3
+      }
+     },
+     "controle_total": {
+      "coef_annonce": 60,
+      "coef_lus": 60,
+      "points_annonces": 300,
+      "statut": "ok"
+     }
+    },
+    "jointure": "n° AAP"
+   },
+   "classement": null,
+   "autorisation": null,
+   "autorisation_citee": null,
+   "controles": [
+    {
+     "regle": "autorisation ≤ date limite + 6 mois (R313-7)",
+     "statut": "non vérifiable",
+     "raison": "date d'autorisation inconnue"
+    }
+   ],
+   "confiance": {
+    "score": 0.0,
+    "niveau": "faible"
+   },
+   "non_trouve": {
+    "classement": [
+     "Aucun document correspondant dans les sources parcourues."
+    ],
+    "autorisation": [
+     "Aucun document correspondant dans les sources parcourues."
+    ]
+   },
+   "bonus": true
+  },
+  {
+   "aap_id": "2022-42-ACT",
+   "objet": "8 places d'Appartements de Coordination Thérapeutique (ACT) « hors les murs » dans le département de la Loire",
+   "type": "appartements de coordination thérapeutique",
+   "territoire": "Loire",
+   "places": 8,
+   "avis": null,
+   "classement": {
+    "type_doc": "classement",
+    "url": "https://www.prefectures-regions.gouv.fr/auvergne-rhone-alpes/content/download/96848/618277/file/11juillet2022_n%C2%B02_recueil-84-2022-148-recueil-des-actes-administratifs-special.pdf",
+    "pages": [
+     34,
+     34
+    ],
+    "nb_pages_pdf": 64,
+    "texte_vide": 0,
+    "champs": {
+     "aap_id": {
+      "valeur": "2022-42-ACT",
+      "url": "https://www.prefectures-regions.gouv.fr/auvergne-rhone-alpes/content/download/96848/618277/file/11juillet2022_n%C2%B02_recueil-84-2022-148-recueil-des-actes-administratifs-special.pdf",
+      "page": 34
+     },
+     "objet": {
+      "valeur": "8 places d'Appartements de Coordination Thérapeutique (ACT) « hors les murs » dans le département de la Loire",
+      "url": "https://www.prefectures-regions.gouv.fr/auvergne-rhone-alpes/content/download/96848/618277/file/11juillet2022_n%C2%B02_recueil-84-2022-148-recueil-des-actes-administratifs-special.pdf",
+      "page": 34
+     },
+     "places": {
+      "valeur": 8,
+      "url": "https://www.prefectures-regions.gouv.fr/auvergne-rhone-alpes/content/download/96848/618277/file/11juillet2022_n%C2%B02_recueil-84-2022-148-recueil-des-actes-administratifs-special.pdf",
+      "page": 34
+     },
+     "territoire": {
+      "valeur": "Loire",
+      "url": "https://www.prefectures-regions.gouv.fr/auvergne-rhone-alpes/content/download/96848/618277/file/11juillet2022_n%C2%B02_recueil-84-2022-148-recueil-des-actes-administratifs-special.pdf",
+      "page": 34
+     },
+     "type": {
+      "valeur": "appartements de coordination thérapeutique",
+      "url": "https://www.prefectures-regions.gouv.fr/auvergne-rhone-alpes/content/download/96848/618277/file/11juillet2022_n%C2%B02_recueil-84-2022-148-recueil-des-actes-administratifs-special.pdf",
+      "page": 34
+     },
+     "nb_projets_recus": {
+      "valeur": "deux",
+      "url": "https://www.prefectures-regions.gouv.fr/auvergne-rhone-alpes/content/download/96848/618277/file/11juillet2022_n%C2%B02_recueil-84-2022-148-recueil-des-actes-administratifs-special.pdf",
+      "page": 34
+     },
+     "date_commission": {
+      "valeur": "2022-06-30",
+      "url": "https://www.prefectures-regions.gouv.fr/auvergne-rhone-alpes/content/download/96848/618277/file/11juillet2022_n%C2%B02_recueil-84-2022-148-recueil-des-actes-administratifs-special.pdf",
+      "page": 34
+     },
+     "date_avis_classement": {
+      "valeur": "2022-07-07",
+      "url": "https://www.prefectures-regions.gouv.fr/auvergne-rhone-alpes/content/download/96848/618277/file/11juillet2022_n%C2%B02_recueil-84-2022-148-recueil-des-actes-administratifs-special.pdf",
+      "page": 34
+     }
+    },
+    "citations": [],
+    "jointure": "n° AAP"
+   },
+   "autorisation": null,
+   "autorisation_citee": null,
+   "controles": [
+    {
+     "regle": "autorisation ≤ date limite + 6 mois (R313-7)",
+     "statut": "non vérifiable",
+     "raison": "date limite inconnue"
+    }
+   ],
+   "confiance": {
+    "score": 0.3,
+    "niveau": "faible"
+   },
+   "non_trouve": {
+    "avis": [
+     "Aucun document correspondant dans les sources parcourues."
+    ],
+    "autorisation": [
+     "Aucun document correspondant dans les sources parcourues."
+    ]
+   },
+   "bonus": true
+  }
+ ],
+ "autres_aap_detectes": [
+  "2021-07-ACT",
+  "2021-07-LHSS",
+  "2022-38-LHSS",
+  "2022-42-LAM",
+  "2022-63-LAM",
+  "2022-69-LHSS"
+ ],
+ "sources": [
+  {
+   "url": "https://www.prefectures-regions.gouv.fr/auvergne-rhone-alpes/content/download/77557/501248/file/1fevrier2021_n%C2%B0%201_recueil-84-2021-019-recueil-des-actes-administratifs-special(1).pdf",
+   "statut": "ok",
+   "pages": 96,
+   "actes_retenus": [
+    "avis 2021-07-ACT p.3-33",
+    "avis 2021-07-LHSS p.34-67",
+    "avis 2021-69-ACT p.68-96"
+   ]
+  },
+  {
+   "url": "https://www.auvergne-rhone-alpes.ars.sante.fr/index.php/media/79849/download",
+   "statut": "ok",
+   "pages": 1,
+   "actes_retenus": [
+    "classement 2021-69-ACT p.1-1"
+   ]
+  },
+  {
+   "url": "https://www.prefectures-regions.gouv.fr/content/download/86817/558379/file/30septembre2021_recueil-84-2021-174-recueil-des-actes-administratifs-special.pdf",
+   "statut": "ok",
+   "pages": 79,
+   "actes_retenus": [
+    "autorisation 2021-69-ACT p.7-11",
+    "autorisation ? p.17-18"
+   ]
+  },
+  {
+   "url": "https://www.prefectures-regions.gouv.fr/content/download/91653/586983/file/31janvier2022_recueil-84-2022-021-recueil-des-actes-administratifs-special.pdf",
+   "statut": "ok",
+   "pages": 217,
+   "actes_retenus": [
+    "avis 2022-03-ACT p.8-36",
+    "avis 2022-63-LAM p.37-67",
+    "avis 2022-38-LHSS p.68-100",
+    "avis 2022-69-LHSS p.101-135",
+    "avis 2022-42-LAM p.136-167",
+    "avis 2022-69-ACT p.168-197"
+   ]
+  },
+  {
+   "url": "https://auvergne-rhone-alpes.ars.sante.fr/media/90066/download?inline=",
+   "statut": "ok",
+   "pages": 21,
+   "actes_retenus": [
+    "avis 2022-69-ACT p.1-21"
+   ]
+  },
+  {
+   "url": "https://www.prefectures-regions.gouv.fr/auvergne-rhone-alpes/content/download/96848/618277/file/11juillet2022_n%C2%B02_recueil-84-2022-148-recueil-des-actes-administratifs-special.pdf",
+   "statut": "ok",
+   "pages": 64,
+   "actes_retenus": [
+    "autorisation ? p.7-9",
+    "classement 2022-69-ACT p.31-31",
+    "classement 2022-38-LHSS p.33-33",
+    "classement 2022-42-ACT p.34-34",
+    "autorisation ? p.38-39"
+   ]
+  },
+  {
+   "url": "https://www.prefectures-regions.gouv.fr/auvergne-rhone-alpes/irecontenu/telechargement/98987/630905/file/4octobre2022_recueil-84-2022-218-recueil-des-actes-administratifs-special.pdf",
+   "statut": "ok",
+   "pages": 51,
+   "actes_retenus": [
+    "autorisation 2022-69-ACT p.12-15",
+    "autorisation 2022-69-LHSS p.16-19",
+    "avis ? p.20-21",
+    "autorisation ? p.24-25",
+    "avis ? p.30-31"
+   ]
+  },
+  {
+   "url": "https://www.auvergne-rhone-alpes.ars.sante.fr/media/129968/download",
+   "statut": "ok",
+   "pages": 1,
+   "actes_retenus": [
+    "classement 2024-15-EMSP p.1-1"
+   ]
+  },
+  {
+   "url": "https://www.prefectures-regions.gouv.fr/irecontenu/telechargement/121721/903077/file/6novembre2024_recueil-84-2024-327-recueil-des-actes-administratifs-special.pdf",
+   "statut": "ok",
+   "pages": 53,
+   "actes_retenus": [
+    "autorisation ? p.38-41"
+   ]
+  },
+  {
+   "url": "https://www.prefectures-regions.gouv.fr/irecontenu/telechargement/122292/907170/file/25novembre2024_n%C2%B0-1_recueil-84-2024-345-recueil-des-actes-administratifs-special.pdf",
+   "statut": "ok",
+   "pages": 119,
+   "actes_retenus": []
+  },
+  {
+   "url": "https://www.prefectures-regions.gouv.fr/auvergne-rhone-alpes/irecontenu/telechargement/122565/909314/file/2d%C3%A9cembre2024_recueil-84-2024-350-recueil-des-actes-administratifs-special.pdf",
+   "statut": "ok",
+   "pages": 39,
+   "actes_retenus": [
+    "avis ? p.7-26",
+    "autorisation ? p.27-28"
+   ]
+  },
+  {
+   "url": "https://www.prefectures-regions.gouv.fr/auvergne-rhone-alpes/irecontenu/telechargement/133043/975986/file/20251127_recueil-84-2025-334-recueil-des-actes-administratifs-special.pdf",
+   "statut": "ok",
+   "pages": 94,
+   "actes_retenus": [
+    "autre ? p.28-29",
+    "autre ? p.33-34",
+    "autorisation ? p.47-49",
+    "autorisation ? p.57-58",
+    "autorisation ? p.59-60"
+   ]
+  }
+ ]
+};

@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AAP médico-sociaux ARA</title>
+<style>
+  :root {
+    color-scheme: light;
+    --plane: #f9f9f7; --surface: #fcfcfb; --ring: rgba(11,11,11,.10);
+    --ink: #0b0b0b; --ink-2: #52514e; --muted: #898781; --grid: #e1e0d9; --axis: #c3c2b7;
+    --accent: #2a78d6; --context: #b9b8b3;
+    --good: #0ca30c; --good-text: #006300; --warning: #fab219; --critical: #d03b3b;
+    --good-bg: #e9f6e9; --warn-bg: #fff6e0; --crit-bg: #fbeaea;
+  }
+  * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  [id] { scroll-margin-top: 64px; }  /* ancres sous la barre de navigation fixe */
+  body { margin: 0; background: var(--plane); color: var(--ink);
+         font: 15px/1.55 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+  .num { font-variant-numeric: tabular-nums; }
+  a { color: var(--accent); text-decoration: none; } a:hover { text-decoration: underline; }
+  .wrap { max-width: 1080px; margin: 0 auto; padding: 0 16px; }
+
+  nav { position: sticky; top: 0; z-index: 5; background: rgba(249,249,247,.92); backdrop-filter: blur(6px);
+        border-bottom: 1px solid var(--ring); }
+  nav .wrap { display: flex; gap: 20px; align-items: center; height: 48px; overflow-x: auto; white-space: nowrap; }
+  nav b { margin-right: auto; font-size: .95rem; }
+  nav a { color: var(--ink-2); font-size: .9rem; }
+
+  header { padding: 28px 0 8px; }
+  h1 { font-size: 1.6rem; line-height: 1.25; margin: 0 0 6px; letter-spacing: -.01em; }
+  .lede { color: var(--ink-2); max-width: 760px; margin: 0; }
+  h2 { font-size: 1.15rem; margin: 36px 0 12px; }
+  h3 { font-size: 1rem; margin: 0; }
+  .muted { color: var(--muted); } .small { font-size: .85rem; }
+
+  .kpis { display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px; margin: 20px 0 4px; }
+  @media (max-width: 720px) { .kpis { grid-template-columns: repeat(2, 1fr); } }
+  .kpi { background: var(--surface); border: 1px solid var(--ring); border-radius: 12px; padding: 14px 16px; }
+  .kpi .label { color: var(--ink-2); font-size: .85rem; }
+  .kpi .value { font-size: 1.9rem; font-weight: 650; line-height: 1.1; margin-top: 4px; }
+  .kpi .hint { color: var(--muted); font-size: .8rem; }
+
+  .card { background: var(--surface); border: 1px solid var(--ring); border-radius: 12px; padding: 18px 20px; margin: 0 0 16px; }
+  .scroll { overflow-x: auto; }
+  table { border-collapse: collapse; width: 100%; font-size: .9rem; }
+  th { text-align: left; font-weight: 600; color: var(--ink-2); font-size: .8rem; padding: 8px 10px; border-bottom: 1px solid var(--axis); white-space: nowrap; }
+  td { padding: 10px; border-bottom: 1px solid var(--grid); vertical-align: middle; }
+  tr:last-child td { border-bottom: 0; }
+  td.num, td a[href^="#aap"] { white-space: nowrap; }
+  tbody tr.link { cursor: pointer; } tbody tr.link:hover { background: #f3f3f0; }
+
+  .st { display: inline-flex; align-items: center; gap: 6px; padding: 2px 9px 2px 7px; border-radius: 99px; font-size: .8rem; white-space: nowrap; color: var(--ink); }
+  .st i { font-style: normal; font-weight: 700; }
+  .st.good { background: var(--good-bg); } .st.good i { color: var(--good-text); }
+  .st.warn { background: var(--warn-bg); } .st.warn i { color: #8a5a00; }
+  .st.crit { background: var(--crit-bg); } .st.crit i { color: var(--critical); }
+  .tag { display: inline-block; font-size: .72rem; padding: 1px 7px; border-radius: 99px; border: 1px solid var(--axis); color: var(--ink-2); margin-left: 6px; vertical-align: 2px; }
+
+  .meter { display: flex; align-items: center; gap: 8px; min-width: 210px; }
+  .meter .track { flex: 1; height: 8px; background: var(--grid); border-radius: 99px; overflow: hidden; }
+  .meter .fill { height: 100%; background: var(--accent); border-radius: 99px; }
+  .meter span { font-size: .8rem; color: var(--ink-2); white-space: nowrap; }
+
+  .fiche-head { display: flex; flex-wrap: wrap; gap: 8px 16px; align-items: baseline; justify-content: space-between; }
+  .fiche-head .meter { width: 280px; }
+  .objet { color: var(--ink-2); margin: 4px 0 0; }
+  .timeline { margin: 18px 0 6px; position: relative; }
+  .timeline svg { display: block; width: 100%; overflow: visible; }
+  .missing { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; margin: 6px 0 0; }
+
+  .docs { display: grid; grid-template-columns: repeat(3, 1fr); gap: 0; margin-top: 16px; border-top: 1px solid var(--grid); }
+  @media (max-width: 760px) { .docs { grid-template-columns: 1fr; } }
+  .doc { padding: 12px 14px 4px 0; }
+  .doc + .doc { padding-left: 14px; border-left: 1px solid var(--grid); }
+  @media (max-width: 760px) { .doc + .doc { border-left: 0; padding-left: 0; border-top: 1px solid var(--grid); } }
+  .doc h4 { margin: 0 0 6px; font-size: .8rem; text-transform: uppercase; letter-spacing: .04em; color: var(--ink-2); }
+  .doc ol, .doc ul { margin: 0; padding-left: 18px; font-size: .9rem; }
+  .doc p { margin: 0 0 4px; font-size: .9rem; }
+  .src { font-size: .8rem; white-space: nowrap; }
+
+  .criteria { margin-top: 18px; padding-top: 14px; border-top: 1px solid var(--grid); }
+  .bars { display: grid; gap: 7px; margin: 10px 0 8px; max-width: 760px; }
+  .bar { display: grid; grid-template-columns: 200px 1fr 120px; gap: 10px; align-items: center; font-size: .875rem; }
+  @media (max-width: 600px) { .bar { grid-template-columns: 1fr 90px; } .bar .track { grid-column: 1 / -1; grid-row: 2; } }
+  .bar .track { height: 12px; }
+  .bar .fill { height: 12px; background: var(--context); border-radius: 0 4px 4px 0; min-width: 2px; }
+  .bar.hl .fill { background: var(--accent); }
+  .bar.hl .name { font-weight: 650; }
+  .bar .val { color: var(--ink-2); text-align: right; }
+  .callout { font-size: .88rem; color: var(--ink-2); }
+  details summary { cursor: pointer; color: var(--ink-2); font-size: .88rem; margin-top: 6px; }
+  details table { margin-top: 8px; font-size: .82rem; }
+
+  #tip { position: fixed; pointer-events: none; z-index: 10; background: var(--ink); color: #fff; font-size: .8rem;
+         padding: 6px 9px; border-radius: 6px; max-width: 280px; opacity: 0; transition: opacity .08s; }
+  footer { padding: 8px 0 40px; }
+  footer li { margin: 2px 0; }
+</style>
+</head>
+<body>
+<nav><div class="wrap"><b>AAP médico-sociaux · ARS ARA</b>
+  <a href="#synthese">Synthèse</a><a href="#fiches">Fiches</a><a href="#prospection">Prospection</a><a href="#sources">Sources</a></div></nav>
+<div class="wrap">
+  <header id="synthese">
+    <h1>Avis → classement → autorisation</h1>
+    <p class="lede">Pour quelques appels à projets médico-sociaux clos de l'ARS Auvergne-Rhône-Alpes, les trois traces publiques
+      prévues par le CASF (R313-4-1, R313-6-2, R313-7) sont retrouvées dans les sources primaires, reliées et contrôlées.
+      Chaque valeur renvoie à son PDF et à sa page.</p>
+    <div class="kpis" id="kpis"></div>
+  </header>
+  <section><div class="card scroll" id="summary"></div></section>
+  <section id="fiches"><h2>Fiches détaillées</h2><div id="cards"></div></section>
+  <section id="prospection"><h2>Prospection</h2><div id="prosp"></div></section>
+  <footer id="sources" class="small"></footer>
+</div>
+<div id="tip" role="tooltip"></div>
+<script src="data.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
